@@ -7,8 +7,34 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(https://bookmaker-ratings.ru/wp-content/uploads/2022/09/Kontr-terrorist_skuchaet_s_kuritsej_-_CS_GO__Oboi_1920x1080.jpg);
-    background-size: cover;
+background-color: #00ff95;
+}
+/* header start */
+.header {
+    background-color: #ef5705;
+}
+.header_body {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header__logo {
+    width: 100px;
+}
+.header__menu {
+    width: 500px;
+    margin-left: 300px;
+}
+.header__menu li{
+    display: inline-block;
+    margin: 0 50px;
+}
+.header__menu a{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.header__button {
+
 }
 
 .music{
@@ -94,4 +120,32 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .card-4__music {
+}
+
+.myVideo {
+    background-color: #1500ff;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.video {
+    border: 10px solid #000;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+.video__button{
+    padding: 20px 40px;
+    margin-top: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.video__button:hover{
+    background-color: brown;
+    color: rgb(30, 255, 0);
+    letter-spacing: 0px;
 }
